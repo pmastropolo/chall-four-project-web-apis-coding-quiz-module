@@ -1,0 +1,137 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+      }
+
+      body {
+
+        width: 100%;
+        background-size: cover;
+        position:absolute;
+        background-color: rgb(217, 252, 152);
+    
+    }
+
+
+/* Restarting CSS */
+
+#entire-quiz-includes-rules-leaderboard {
+padding: 50px;
+}
+
+
+.slideshow {
+
+
+}
+
+
+#rulebook{
+
+
+}
+
+.timercontainer {
+
+
+}
+
+
+#leaderboard {
+
+
+}
+
+#timer {
+
+
+}
+
+#timeLeft {
+
+
+}
+
+#question-one {
+
+
+}
+
+#question-two {
+
+    
+}
+
+#question-three {
+
+    
+}
+
+#question-four {
+
+    
+}
+
+#question-five {
+
+    
+}
+
+#question-six {
+
+    
+}
+
+#question-seven {
+
+    
+}
+
+
+.quiz-question {
+
+
+}
+
+
+/* Media Queries */ 
+
+/* For Screens 992px And Smaller */
+
+@media screen and (max-width: 992px) {
+        header {
+
+        }
+
+        body {
+          
+        }
+      }
+      
+      /* For Screens 600px And Smaller */
+
+      @media screen and (max-width: 600px) {
+
+        header {
+
+        }
+
+        body {
+          
+        }
+      }
+
+      /* For Screens 768px And Smaller */
+
+      @media screen and (max-width: 768px) {
+
+        header {
+
+        }
+
+        body {
+          
+        }
+      }

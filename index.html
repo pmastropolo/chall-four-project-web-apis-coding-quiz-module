@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>A POP QUIZ: Javascript Fundamentals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+<body>
+                <!-- Do I need a header if everything is contained in a Slide Show? Put everything in body? -->
+                <!-- Attempting Slide Show to hold Questions .. Questions better to do in Java or HTML? -->
+
+        <div id="entire-quiz-includes-rules-leaderboard">
+
+           <!--Timer -->
+
+           <div id="timer">Time left: <span id="time-left"></span></div>
+
+
+                  <!--Quiz Rules -->
+
+              <div class="slideshow" id="rulebook">
+
+                <h1>TRY TO ANSWER THE FOLLOWING CODE-RELATED QUESTIONS WITHIN THE TIME LIMIT</h1>
+                                
+                <h1>KEEP IN MIND THAT INCORRECT ANSWERS WILL PENALIZE YOUR SCORE/TIME BY 10 SECONDS.</h1>
+
+                 <!-- start Quiz button -->
+                 <br>
+
+                <button id="startQuizButton">&#9201;<u>Start Quiz</u>&#9201;<br><span>When You Press Start...<br><b>Timer Will Begin</b></span></button>
+        
+            </div>
+
+
+
+            <!-- Quiz Container and Multiple Choice Questions -->
+            <!-- Going to try & Make Each Question a List Item that will Include a Button -->
+            <!-- This way the questions will actually be more similar to the Challenge prompt, how they appear/disappear screen/screen -->
+            <!-- Deleting orginal idea of a form/button duo-->
+            <!-- In doing this, I'm hoping it will also get rid of the circles by answers -->
+
+            
+        <div class="slideshow" id="question-one">
+         
+                
+
+                <h2>Commonly Used Data Types <u>DO NOT</u> Include:</h2><br>
+
+                <ol>
+                        <li><button class="quiz-question">Strings</button></li>
+
+                        <li><button class="quiz-question">Booleans</button></li>
+
+                        <li><button class="quiz-question">Alerts</button></li>
+
+                        <li><button class="quiz-question">Numbers</button></li>
+
+                </ol>
+
+        </div>
+
+
+
+        <div class="slideshow" id="question-two">
+        
+                <h2>The Condition in an if / else Statement is Enclosed With ______________.</h2><br>
+
+                <ol>
+                        <li><button class="quiz-question">Quotes</button></li>
+
+                        <li><button class="quiz-question">Curly Brackets</button></li>
+
+                        <li><button class="quiz-question">Parenthesis</button></li>
+
+                        <li><button class="quiz-question">Square Brackets</button></li>
+
+                </ol>
+
+        </div>
+
+
+
+
+        <div class="slideshow" id="question-three">
+        
+                <h2>Arrays in JavaScript Can Be Used to Store ____________. </h2><br>
+
+                <ol>
+                        <li><button class="quiz-question">Numbers and Strings</button></li>
+
+                        <li><button class="quiz-question">Other Arrays</button></li>
+
+                        <li><button class="quiz-question">Booleans</button></li>
+
+                        <li><button class="quiz-question">All of the Above</button></li>
+
+                </ol>
+
+        </div>
+
+
+
+        <div class="slideshow" id="question-four">
+        
+                <h2>String Values must be Enclosed Within __________ When Being Assigned to Variables.</h2><br>
+
+                <ol>
+                        <li><button class="quiz-question">Commas</button></li>
+
+                        <li><button class="quiz-question">Curly Brackets</button></li>
+
+                        <li><button class="quiz-question">Quotes</button></li>
+
+                        <li><button class="quiz-question">Parenthesis</button></li>
+
+                </ol>
+
+        </div>
+
+
+
+        <div class="slideshow" id="question-five">
+        
+                <h2>A Very Useful Tool Used During Development and Debugging for Printing Content to the Debugger is:</h2><br>
+
+                <ol>
+                        <li><button class="quiz-question">JavaScript</button></li>
+
+                        <li><button class="quiz-question">Terminal</button></li>
+
+                        <li><button class="quiz-question">For Loops</button></li>
+
+                        <li><button class="quiz-question">Console</button></li>
+
+                </ol>
+
+        </div>
+
+
+                <!-- Above were the Questions in the Challenge Prompt-->
+                <!-- Below, Are Questions I Added -->
+
+
+        <div class="slideshow" id="question-six">
+        
+                <h2>Arrays start & end with _______?</h2><br>
+
+                <ol>
+                        <li><button class="quiz-question">Commas</button></li>
+
+                        <li><button class="quiz-question">Brackets</button></li>
+
+                        <li><button class="quiz-question">Question Mark</button></li>
+
+                        <li><button class="quiz-question">Tomato</button></li>
+
+                </ol>
+
+        </div>
+
+
+        <div class="slideshow" id="question-seven">
+        
+                <h2>The Simple Assignment Operator ( Which Looks Like =  ) Does __________</h2><br>
+
+                <ol>
+                        <li><button class="quiz-question">All Are True</button></li>
+
+                        <li><button class="quiz-question">Adds a Value to a Variable</button></li>
+
+                        <li><button class="quiz-question">Divides a Variable</button></li>
+
+                        <li><button class="quiz-question">Assigns a Value to a Variable</button></li>
+
+                </ol>
+
+        </div>
+
+
+                         <!-- Leaderboard Section -->
+                        <!-- Alert or Add text when Quiz Completed? -->
+                        <!-- Will add text for now -->
+                        <!-- WHERE TO PUT TIMER!?! STILL NEED TO FIGURE THAT OUT!!! AND FAST! -->
+
+        <div class="slide" id="last-slide-leaderboard">
+
+                <h1><b>You have finished the Quiz!</b></h1>
+                <br>
+                <h2><b><u>&#127881;&#127775;Leader Board:&#127775;&#127881;</u></b></h3>              
+                <ol id="leaderboard"></ol>
+                <br>
+                <br>
+                <input type="text" id="name" placeholder="Type Your Name">
+                <button id="enter-name">Enter</button>
+          <button id="add-score">Score</button>
+                <br>
+                <button id="restarting-quiz">Would You Like To Try Again?</button>
+        
+        </div>
+
+</div>
+
+        <script src="script.js"></script>
+
+     </body>
+
+  </html>
