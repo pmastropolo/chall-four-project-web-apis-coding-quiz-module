@@ -23,7 +23,7 @@ I was provided a screenshot of what my work should look like.:arrow_down:
 
 ![homework gif](assets/images/04-web-apis-homework-demo.gif)
 
-Github link: https://github.com/pmastropolo/module-four-web-apis-code-quiz
+Github link: https://github.com/pmastropolo/chall-four-project-web-apis-coding-quiz-module
 
 Deployed Website Link: https://pmastropolo.github.io/chall-four-project-web-apis-coding-quiz-module/
 
@@ -31,7 +31,7 @@ Deployed Website Link: https://pmastropolo.github.io/chall-four-project-web-apis
 
 *These links direct you to my project*
 
-Github link: https://github.com/pmastropolo/module-four-web-apis-code-quiz
+Github link: https://github.com/pmastropolo/chall-four-project-web-apis-coding-quiz-module
 
 deployed Website Link: https://pmastropolo.github.io/chall-four-project-web-apis-coding-quiz-module/
 
