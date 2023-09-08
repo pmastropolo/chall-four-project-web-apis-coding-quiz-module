@@ -1,137 +1,158 @@
-* {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
+body {
+  background-color: #FFC0CB;
+  color: #030303; 
+  font-family: 'Arial', sans-serif;
+}
 
-      }
+/* CONTAINER STYLE */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #FFB6C1;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
 
-      body {
+/* INITIALS STYLE */
+#initials {
+  width: 200px;
+  height: 35px;
+  font-size: 18px;
+  padding: 8px 12px;
+  border: 2px solid #FF69B4;
+  border-radius: 5px;
+  margin-right: 15px; 
+}
 
-        width: 100%;
-        background-size: cover;
-        position:absolute;
-        background-color: rgb(217, 252, 152);
-    
-    }
-
-
-/* Restarting CSS */
-
-#entire-quiz-includes-rules-leaderboard {
-padding: 50px;
+/* RULES */
+.rules {
+  background-color: #FF69B4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px; 
 }
 
 
-.slideshow {
-
-
+/* PARAGRAPH STYLING WITHIN RULES SECTION */
+.rules p {
+  font-size: 20px;  
+  font-family: 'Open Sans', sans-serif; 
 }
 
 
-#rulebook{
-
-
-}
-
-.timercontainer {
-
-
+/* HEADER STYLING WITHIN RULES SECTION */
+.rules h3 {
+  margin-top: 0;
+  color: #FFD700;
+  font-size: 50px;
 }
 
 
-#leaderboard {
-
-
+/* LIST STYLING WITHIN RULES SECTION */
+.rules ul {
+  text-align: center;
 }
 
+
+/* STYLING FOR BUTTONS */
+#start-button, #save-score, #backButton, #clearLeaderboard {
+  font-size: 18px;
+  padding: 15px 25px;
+  background-color: #FF1493;
+  color: #f8f8f2;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+
+/* START BUTTON */
+#start-button {
+  text-align: center;
+}
+
+
+/* HOVER EFFECT FOR BUTTONS */
+#start-button:hover, #save-score:hover, #backButton:hover, #clearLeaderboard:hover {
+  background-color: #FF69B4;
+}
+
+/* HIDE CONTAINER DEFAULT */
+.question-container, .score-container, .leaderboard-container {
+  display: none;
+}
+
+/* QUESTION TITLE */
+#question-title {
+  font-size: 24px;
+  background-color: #FF83AA;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* TIMER STYLE */
 #timer {
-
-
-}
-
-#timeLeft {
-
-
-}
-
-#question-one {
-
-
-}
-
-#question-two {
-
-    
-}
-
-#question-three {
-
-    
-}
-
-#question-four {
-
-    
-}
-
-#question-five {
-
-    
-}
-
-#question-six {
-
-    
-}
-
-#question-seven {
-
-    
+  font-size: 40px;
+  margin-top: 20px;
+  color: #050502; /* Gold color for timer */
 }
 
 
-.quiz-question {
-
-
+/* LEADERBOARD TITLE */
+.leaderboard-container h2 {
+  color: #e609b6;
+  font-size: 28px; 
 }
 
 
-/* Media Queries */ 
+/* LEADER BOARD */
+#leaderboard {
+  text-align: left;
+  margin-top: 20px;
+}
 
-/* For Screens 992px And Smaller */
 
-@media screen and (max-width: 992px) {
-        header {
+/* LEADERBOARD ENTRIES */
+#leaderboard p {
+  font-size: 24px; 
+  margin-bottom: 10px; 
+}
 
-        }
 
-        body {
-          
-        }
-      }
-      
-      /* For Screens 600px And Smaller */
+/* ANSWER BUTTON */
+.answer-button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ff79c6; 
+  color: #282a36; 
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: left;
+}
 
-      @media screen and (max-width: 600px) {
 
-        header {
+/* HOVER EFFECT FOR ANSWER BUTTONS */
+.answer-button:hover {
+  background-color: #ff92d0; 
+}
 
-        }
 
-        body {
-          
-        }
-      }
-
-      /* For Screens 768px And Smaller */
-
-      @media screen and (max-width: 768px) {
-
-        header {
-
-        }
-
-        body {
-          
-        }
-      }
+/* CLEAR LEADERBOARD BUTTON */
+#clearLeaderboard {
+  font-size: 18px;
+  padding: 15px 25px;
+  background-color: #FF6347;
+  color: #282a36;
+  border: none;
+  cursor: pointer;
+  background-color: #f59344;
+  margin: 10px 0;
+}
